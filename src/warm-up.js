@@ -10,7 +10,7 @@
 // Initialize two new variables, "title", and "pages", and assign values to them with
 // a book's title and page count.
 
-var title = "The Priory of the Ornage Tree";
+var title = "The Priory of the Orange Tree";
 var pages = 830;
 
 
@@ -19,16 +19,16 @@ var pages = 830;
 // condensed the book, use a built in math operator to make the page count a quarter
 // of what it currently is 
 
-pages = 805;
+pages = pages/4;
 
 // Initialize a new variable "movie", but leave it undefined
 
-var movie = null;
+var movie;
 
 // Create a variable named "sequel", and assign it to a be a sequel of your
 // book (made up or not!). Your sequel must make use of your "title" variable from above
 
-var sequel = 'The Priory of the Peach Tree';
+var sequel = `${title} Part II`;
 
 // Initialize a new variable "isFavorite", and assign it to a boolean value indicating
 // if the book you chose is your favorite book or not
