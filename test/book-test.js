@@ -10,7 +10,7 @@ var {
 } = require("../src/book.js");
 
 
-describe.only("book.js", function () {
+describe("book.js", function () {
   describe("createTitle", function() {
     it("should be a function", function () {
       assert.isFunction(createTitle);
