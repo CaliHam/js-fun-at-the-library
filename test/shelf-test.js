@@ -7,7 +7,7 @@ var {
   searchShelf
 } = require("../src/shelf.js")
 
-describe.only("shelf.js", function() {
+describe("shelf.js", function() {
   describe("shelfBook", function() {
     it("should be a function", function() {
       assert.isFunction(shelfBook);
